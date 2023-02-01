@@ -7,13 +7,10 @@ public abstract class Animali {
 		System.out.println("Dormire: ZzZzZzZ");
 	}
 
-	public void mangia() {
-
-	}
+	public abstract void mangia();
 	
 	
-	
-	public void verso() {
+	public abstract void verso();
 		
-	}
+	
 }
