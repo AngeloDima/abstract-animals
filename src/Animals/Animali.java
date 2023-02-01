@@ -11,6 +11,24 @@ public abstract class Animali {
 	
 	
 	public abstract void verso();
+
+	protected abstract void terra();
+
+	protected abstract void nuoto();
 		
 	
 }
+
+interface animaleNuoto {
+	void nuoto();
+}
+
+interface animaleTerra {
+	void terra();
+}
+
+interface animaleAria {
+	void volare();
+}
+
+

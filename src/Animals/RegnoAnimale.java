@@ -15,6 +15,11 @@ public class RegnoAnimale {
 		tRex.mangia();
 		tRex.verso();
 		
+		System.out.println("-----++++-----");
+		faiCamminare(tRex);
+
+		
+		
 		System.out.println("------------");
 		
 		System.out.println("coccoDrillo");
@@ -22,12 +27,30 @@ public class RegnoAnimale {
 		coccoDrillo.mangia();
 		coccoDrillo.verso();
 		
+		System.out.println("-----++++-----");
+		faiNuotare(coccoDrillo);
+
+
+		
 		System.out.println("------------");
 		System.out.println("Delfino");
 		delfino.dormi();
 		delfino.mangia();
 		delfino.verso();
 		
+		System.out.println("-----++++-----");
+		faiNuotare(delfino);
+
+		
 	}
+
+	public static void faiCamminare(Animali animaleTerra) {
+		animaleTerra.terra();
+	}
+	
+	public static void faiNuotare(Animali animaleNuoto) {
+		animaleNuoto.nuoto();
+	}
+	
 
 }
